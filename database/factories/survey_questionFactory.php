@@ -4,10 +4,17 @@ namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Relations\Pivot;
+use App\Models\Type;
+use App\Models\Answer;
+use App\Models\survey_question;
+use App\Models\Survey;
+use App\Models\Question;
+use App\Models\surveyquestion_answer;
+use App\Models\Student;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\survey_question>
  */
-class SurveyQuestionFactory extends Factory
+class survey_questionFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -17,7 +24,9 @@ class SurveyQuestionFactory extends Factory
     public function definition()
     {
         return [
-            //
+            
+            'survey_id' => Survey::factory(),
+            'question_id' => Question::factory()
         ];
     }
 }
