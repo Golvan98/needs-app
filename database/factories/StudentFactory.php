@@ -25,9 +25,9 @@ class StudentFactory extends Factory
     {
         return [
             'firstname' => $this->faker->unique()->firstName(),
-            'middlename' => $this->faker->unique()->firstName(),
+            'middlename' => $this->faker->randomElement(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']),
             'lastname' => $this->faker->unique()->lastName(),
-            'college' => $this->faker->unique()->word(),
+            'college' => $this->faker->randomElement(['COE', 'CCS', 'CASS', 'CBA', 'CON', 'CED', 'CSM']),
             'course' => $this->faker->unique()->word(),
             'year' => $this->faker->numberBetween(1, 4),
         ];

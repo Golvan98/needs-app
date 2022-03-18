@@ -23,9 +23,9 @@
         <div id="nav" class="bg-gray-900 px-12 text-gray-100 font-bold grow-0"> nav area
             <nav>
             <ul class="space-y-12"> 
-                <li class="text-gray-100 font-bold"> Home </li>
+                <a href="/home"><li class="text-gray-100 font-bold"> Home </li> </a>
                 <li class="text-gray-100 font-bold"> Grades </li>
-                <li class="text-gray-100 font-bold"> Schedule  </li>
+                <li> <a href="/surveylist">  Surveys </li> </a>
             </ul>     
             </nav>
         </div>

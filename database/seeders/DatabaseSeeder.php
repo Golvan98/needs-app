@@ -6,7 +6,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Type;
 use App\Models\Answer;
-use App\Models\survey_question;
+use App\Models\question_survey;
 use App\Models\Survey;
 use App\Models\Question;
 use App\Models\surveyquestion_answer;
@@ -32,7 +32,7 @@ class DatabaseSeeder extends Seeder
         Question::factory(2)->create();
         Student::factory(2)->create();
 
-        survey_question::factory(3)->create();
+        question_survey::factory(3)->create();
 
             surveyquestion_answer::factory()->create();
 

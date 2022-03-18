@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\SurveyController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/home', function(){
     return view('/homepage');
 });
+
+Route::get('/survey/{surveys}', [SurveyController::class, 'showsurvey']);
+
+Route::get('/surveylist', [SurveyController::class, 'listsurvey']);

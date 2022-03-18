@@ -14,7 +14,7 @@ use App\Models\Student;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\survey_question>
  */
-class survey_questionFactory extends Factory
+class question_surveyFactory extends Factory
 {
     /**
      * Define the model's default state.

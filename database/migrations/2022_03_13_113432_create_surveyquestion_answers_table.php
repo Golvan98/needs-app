@@ -16,13 +16,13 @@ return new class extends Migration
         Schema::create('surveyquestion_answers', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->timestamps();
-            $table->unsignedBigInteger('survey_question_id');
+            $table->unsignedBigInteger('question_survey_id');
             $table->unsignedBigInteger('answer_id');
 
 
-            $table->foreign('survey_question_id')
+            $table->foreign('question_survey_id')
             ->references('id')
-            ->on('survey_questions')
+            ->on('question_survey')
             ->onDelete('cascade');
 
             $table->foreign('answer_id')
