@@ -20,17 +20,21 @@
 
     <div id="container" class="flex">
 
-        <div id="nav" class="bg-gray-900 px-12 text-gray-100 font-bold grow-0"> nav area
+        <div id="nav" class="bg-gray-900 px-12 text-gray-100 font-bold grow-0"> 
             <nav>
-            <ul class="space-y-12"> 
-                <a href="/home"><li class="text-gray-100 font-bold"> Home </li> </a>
-                <li class="text-gray-100 font-bold"> Grades </li>
-                <li> <a href="/surveylist">  Surveys </li> </a>
-            </ul>     
+            <div class="flex flex-auto "> 
+                <ul class="py-12"> 
+                <div class="pb-24">     <a href="/home"><li class="text-gray-100 font-bold"> Home </li> </a> </div>
+                <div class="pb-24">     <li class="text-gray-100 font-bold"> Grades </li> </div>
+                <div class="pb-24">     <li> <a href="/surveylist">  Surveys </li> </a> </div>
+                </ul> 
+            </div>
+                    
             </nav>
         </div>
         
      {{ $slot }}
+    </div>
         
 
 </div>
