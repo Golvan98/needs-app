@@ -1,7 +1,7 @@
 <x-layout>
 
 
-<div id="body" class="bg-gray-300 flex-auto"> 
+<div id="body" class="bg-gray-300 flex-auto my-auto "> 
 
 
     <article class="bg-gray-500 flex">     
@@ -9,8 +9,18 @@
     
         @foreach($surveys as $survey)
 
-        <article class="flex-auto items-center justify-center text-center bg-green-300 flex-auto font-bold border border-red-500">
-            <a href="/survey/{{$survey->id}}"> {{$survey->survey_name}} </a>
+        <article class="flex-auto items-center justify-center text-center bg-gray-300 flex-auto font-bold border border-red-500">
+            <a href="/survey/{{$survey->id}}">
+                <div>
+                     {{$survey->survey_name}} 
+                     <section class="hero container mx-auto flex justify-center">
+                        <img src="{{ asset('storage/manage.png') }}" alt="description of myimage"> 
+                    </section>
+                </div>        
+
+
+            </a>
+            
         </article>
         @endforeach
        

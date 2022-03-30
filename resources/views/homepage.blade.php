@@ -7,8 +7,8 @@
     <article class="bg-gray-500 mt-16">     
 
     
-        <article class="bg-gray-300 flex-auto text-black font-bold py-3"> &nbsp &nbsp &nbsp  Greetings Counselor!
-            <div class="">  </div>
+        <article class="bg-gray-300 flex-auto text-black font-bold py-3"> &nbsp &nbsp &nbsp  Good Evening, Counselor!
+            <div class="">    </div>
             <div class="mt-2 border border-red-500"></div>
         
         </article>
@@ -21,8 +21,9 @@
 
 
         <article class="ml-4 flex-auto text-black font-bold text-left"> What would you like to do today?
+            
             <div class="flex-auto text-center"> 
-            <a href="#"> 
+            <a href="/surveylist"> 
 
                     <section class="hero container mx-auto flex justify-center">
                         <img src="{{ asset('storage/manage.png') }}" alt="description of myimage"> 

@@ -6,14 +6,32 @@
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
-<div id="main" class="flex-no-wrap">
+<div id="main" class="flex-no-wrap bg-gray-300">
 
 
         <div>
-            <header class="flex bg-red-500">   
-                <div class="bg-red-500 flex-auto"> Header 1 </div>
-                <div class="bg-red-500 flex-auto"> Header 2</div>
-                <div class="bg-red-500 items-right"> Header 3</div>
+            <header class="flex bg-red-700">   
+
+            <div class="mt-1 bg-red-700 font-bold text-white px-12 text-left"> 
+                My.IIT 
+            </div>
+
+            <div class="bg-red-700 flex-auto">  
+                <div class="ml-4 mt-2 space-y-1">
+                    <div class="w-6 h-0.5 bg-white"></div>
+                    <div class="w-6 h-0.5 bg-white"></div>
+                    <div class="w-6 h-0.5 bg-white"></div>
+                </div>
+            </div>
+
+            <div class="bg-red-700 items-right text-white font-bold mr-2">
+                <div class="relative inline-block">
+                    <img class="inline-block object-cover w-8 h-8 rounded-full" src="https://pbs.twimg.com/profile_images/1430917464792072200/rqqJOqer_400x400.jpg" alt="Profile image"/>
+                    <span class="absolute bottom-0 right-0 inline-block w-2 h-2 bg-green-600 border-2 border-white rounded-full"></span>
+                </div>
+                 Counselor
+            </div>
+
             </header>
         </div>
 
