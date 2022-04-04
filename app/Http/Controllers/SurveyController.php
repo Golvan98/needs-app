@@ -25,4 +25,10 @@ class SurveyController extends Controller
 
         return view('/surveylist')->with(['surveys' =>$surveys]);
     }
+
+    public function surveyresults()
+    {
+        return view('/surveyresults');
+
+    }
 }

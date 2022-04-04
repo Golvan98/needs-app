@@ -40,18 +40,19 @@
 
         <div id="nav" class="bg-gray-900 px-12 text-gray-100 font-bold grow-0"> 
             <nav>
-            <div class="flex flex-auto "> 
-                <ul class="py-12"> 
-                <div class="pb-24">     <a href="/home"><li class="text-gray-100 font-bold"> Home </li> </a> </div>
-                <div class="pb-24">     <li class="text-gray-100 font-bold"> Grades </li> </div>
-                <div class="pb-24">     <li> <a href="/surveylist">  Surveys </li> </a> </div>
-                </ul> 
-            </div>
+
+                <div class="flex-auto "> 
+                    <ul class="py-12"> 
+                    <div class="pb-24">     <a href="/home"><li class="text-gray-100 font-bold"> Home </li> </a> </div>
+                    <div class="pb-24">     <li class="text-gray-100 font-bold"> Grades </li> </div>
+                    <div class="pb-24">     <li> <a href="/surveylist">  Surveys </li> </a> </div>
+                    </ul> 
+                </div>
                     
             </nav>
         </div>
         
-     {{ $slot }}
+        {{ $slot }}
     </div>
         
 

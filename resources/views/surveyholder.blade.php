@@ -15,7 +15,7 @@
 
             @foreach($survey->question as $surveyquestion)
 
-                    <div class="flex-auto"> 
+                    <div class="flex-auto space-y-2"> 
                     <form method="POST" action="#"> 
                     @csrf
                     @method('DELETE')
@@ -25,11 +25,12 @@
                     </input>
                     <button type="submit" 
                     
-                       class="bg-red-300 text-white rounded ml-1 pb-4 px-2 hover:bg-red-500">
+                       class="bg-red-300 text-white rounded ml-1 py-4 px-2 hover:bg-red-500">
 					    Submit Answer
 						</button>
+            </form>	
             @endforeach
-						</form>	
+						
                         
                     </div>
        @endforeach

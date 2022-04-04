@@ -42,7 +42,7 @@
             <article class="bg-white flex-auto text-center font-bold"> <br>
                  <div class="text-center"> 
                              
-                        <a href="#"> 
+                        <a href="surveyresults"> 
                     <section class="hero container mx-auto flex justify-center">
                         <img src="{{ asset('storage/manageresult.png') }}" alt="description of myimage"> 
                     </section>
