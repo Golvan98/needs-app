@@ -31,4 +31,9 @@ class SurveyController extends Controller
         return view('/surveyresults');
 
     }
+
+    public function surveydata()
+    {
+        return view('/surveydata');
+    }
 }

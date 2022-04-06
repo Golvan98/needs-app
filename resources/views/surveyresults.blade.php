@@ -17,10 +17,10 @@
 
     <article class="bg-white">
       
-    <div class="bg-gray-100 border border-red-500 mt-2 ">
+    <div class="bg-gray-100 border border-black mt-2 ">
         <table class="mx-auto mt-2">
                 <tr class="space-x-8">
-                    <th> <button  class="w-48 h-12 bg-gray-300 ml-2 mr-36 rounded-xl"> Anxiety			</th>
+                    <th> <a href="/surveydata"> <button  class="w-48 h-12 bg-gray-300 ml-2 mr-36 rounded-xl"> Anxiety	</th> </a>
                     <th> <button  class="w-48 h-12 bg-gray-300 ml-2 rounded-xl"> Dealing With Relationship</th>
                     <th> <button  class="w-48 h-12 bg-gray-300 ml-40 rounded-xl"> Self-Image</th>
                 </tr>
@@ -57,7 +57,7 @@
 
         </table>
         <br>
-        <button class="ml-8 w-24 h-6 bg-green-500 text-white font-bold mb-2 "> Get Back </button>
+        <a href="/surveydata"> <button class="ml-8 w-24 h-6 bg-green-500 text-white font-bold mb-2 "> Get Back </button>
     </div>
 
     </article>

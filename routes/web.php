@@ -26,3 +26,5 @@ Route::get('/survey/{surveys}', [SurveyController::class, 'showsurvey']);
 Route::get('/surveylist', [SurveyController::class, 'listsurvey']);
 
 Route::get('/surveyresults', [SurveyController::class, 'surveyresults']);
+
+Route::get('/surveydata', [SurveyController::class, 'surveydata']);
